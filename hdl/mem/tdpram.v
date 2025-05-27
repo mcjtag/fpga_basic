@@ -56,8 +56,8 @@ module tdpram #(
 );
 
 (* ram_style = MEMORY_TYPE *) reg [DATA_WIDTH-1:0]ram[2**ADDR_WIDTH-1:0];
-reg [ADDR_WIDTH-1:0]rdouta; 
-reg [ADDR_WIDTH-1:0]rdoutb;
+reg [DATA_WIDTH-1:0]rdouta; 
+reg [DATA_WIDTH-1:0]rdoutb;
 integer i;
 
 assign douta = rdouta;
