@@ -50,7 +50,7 @@ module sprom #(
 );
 
 (* rom_style = MEMORY_TYPE *) reg [DATA_WIDTH-1:0]rom[2**ADDR_WIDTH-1:0];
-reg [ADDR_WIDTH-1:0]rdouta; 
+reg [DATA_WIDTH-1:0]rdouta; 
 integer i;
 
 assign douta = rdouta;
